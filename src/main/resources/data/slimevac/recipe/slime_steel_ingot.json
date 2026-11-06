@@ -1,0 +1,8 @@
+{
+  "type":"minecraft:smelting",
+  "category":"misc",
+  "cookingtime":200,
+  "experience":0.7,
+  "ingredient":{"item":"slimevac:slime_steel_blend"},
+  "result":"slimevac:slime_steel_ingot"
+}

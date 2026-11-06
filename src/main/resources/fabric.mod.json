@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "slimevac",
+  "version": "${version}",
+  "name": "SlimeVac",
+  "description": "A craftable Slime Rancher-inspired mob vacuum for Minecraft 1.21.1.",
+  "authors": ["SlimeVac"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.slimevac.SlimeVac"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}

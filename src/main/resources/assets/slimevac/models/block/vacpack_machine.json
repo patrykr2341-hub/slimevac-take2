@@ -1,0 +1,4 @@
+{
+  "parent":"minecraft:block/cube",
+  "textures":{"particle":"slimevac:block/vacpack_machine","down":"slimevac:block/vacpack_machine","up":"slimevac:block/vacpack_machine","north":"slimevac:block/vacpack_machine","south":"slimevac:block/vacpack_machine","east":"slimevac:block/vacpack_machine","west":"slimevac:block/vacpack_machine"}
+}

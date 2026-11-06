@@ -1,0 +1,11 @@
+{
+  "item.slimevac.slime_steel_blend": "Slime-Steel Blend",
+  "item.slimevac.slime_steel_ingot": "Slime-Steel Ingot",
+  "item.slimevac.slime_core": "Slime Core",
+  "block.slimevac.vacpack_machine": "Vacpack Fabricator",
+  "item.slimevac.slimevac": "SlimeVac",
+  "message.slimevac.full": "Vacpack full! Release your stored mob first.",
+  "message.slimevac.captured": "Captured: %s",
+  "message.slimevac.release_mode": "Mode: Release",
+  "message.slimevac.suction_mode": "Mode: Suction"
+}

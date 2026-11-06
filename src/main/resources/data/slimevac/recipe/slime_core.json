@@ -1,0 +1,7 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category":"misc",
+  "pattern":[" A ","ASA"," A "],
+  "key":{"A":{"item":"minecraft:amethyst_shard"},"S":{"item":"minecraft:slime_ball"}},
+  "result":{"id":"slimevac:slime_core","count":1}
+}

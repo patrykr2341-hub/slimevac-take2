@@ -1,0 +1,7 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category":"equipment",
+  "pattern":[" S ","ICI"," M "],
+  "key":{"S":{"item":"slimevac:slime_steel_ingot"},"I":{"item":"minecraft:iron_ingot"},"C":{"item":"slimevac:slime_core"},"M":{"item":"slimevac:vacpack_machine"}},
+  "result":{"id":"slimevac:slimevac","count":1}
+}

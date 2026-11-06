@@ -1,0 +1,6 @@
+{
+  "type":"minecraft:crafting_shapeless",
+  "category":"misc",
+  "ingredients":[{"item":"minecraft:iron_ingot"},{"item":"minecraft:copper_ingot"},{"item":"minecraft:slime_ball"},{"item":"minecraft:amethyst_shard"}],
+  "result":{"id":"slimevac:slime_steel_blend","count":2}
+}
