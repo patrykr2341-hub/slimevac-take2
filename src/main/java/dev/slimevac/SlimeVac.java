@@ -144,18 +144,18 @@ public class SlimeVac implements ModInitializer {
             return TypedActionResult.consume(stack);
         }
 
-        @Override public int getMaxUseTime(ItemStack stack) { return 72000; }
+        @Override public int getMaxUseTime(ItemStack stack, net.minecraft.entity.LivingEntity user) { return 72000; }
 
         @Override
         public void usageTick(World world, net.minecraft.entity.LivingEntity user, ItemStack stack, int remainingUseTicks) {
             if (world.isClient || !(user instanceof PlayerEntity player) || !(world instanceof ServerWorld)) return;
             Box area = player.getBoundingBox().expand(7.0, 5.0, 7.0);
             MobEntity target = world.getEntitiesByClass(MobEntity.class, area,
-                    mob -> mob.isAlive() && !mob.isRemoved() && mob != player)
+                    mob -> mob.isAlive() && !mob.isRemoved())
                     .stream()
                     .filter(mob -> !mob.isTeammate(player))
                     .filter(mob -> {
-                        Vec3d to = mob.getEntityPos().subtract(player.getEyePos()).normalize();
+                        Vec3d to = mob.getPos().subtract(player.getEyePos()).normalize();
                         return player.getRotationVec(1.0f).dotProduct(to) > 0.35;
                     })
                     .min((a, b) -> Double.compare(a.squaredDistanceTo(player), b.squaredDistanceTo(player)))
